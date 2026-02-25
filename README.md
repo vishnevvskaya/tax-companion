@@ -29,7 +29,7 @@ Install the required modules:
 pip install -r requirements.txt
 ```
 Set up environment variables:
-- Скопируйте файл `.example.env` в `.env`:
+- Copy the `.example.env` to `.env`:
 ```
 cp .example.env .env
 ```
