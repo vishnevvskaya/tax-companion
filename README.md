@@ -46,11 +46,11 @@ python main.py
 
 The bot uses Google Sheets to store data. To set up the integration, follow these steps:
 
-1. Create a new Google Sheets. Copy its ID from the URL (the part between /d/ and /edit).
+1. Create a new Google Sheets. _Copy its ID from the URL (the part between /d/ and /edit)_.
 2. Open Extensions -> Apps Script.
-3. Copy the contents of the files from your repository's GAS/ folder (e.g., triggerController.gs) into the script editor.
-4. Configure triggers: In the script editor, configure the necessary triggers (e.g., time-based backups).
-5. Save and deploy the project. You may need the deployment ID to communicate with the bot.
+3. Copy the contents of the files from this repository's GAS/ folder _(e.g., triggerController.gs)_ into the script editor.
+4. Configure triggers: In the script editor, configure the necessary triggers _(e.g., time-based backups)_.
+5. Save and deploy the project. _You may need the deployment ID to communicate with the bot_.
 
 > [!NOTE]
 > To use the Google Sheets API from Python, you'll also need to set up a service account and grant it access to your spreadsheet. For more information, see the [Google Sheets API documentation](https://developers.google.com/sheets/api/guides/authorizing).
